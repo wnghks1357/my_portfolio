@@ -25,3 +25,27 @@ body {
 #skills{
   background-color: #e7e6e6;
 }
+
+.row.text-center .col-md-2 .service-heading {
+  display: none;
+  margin-top: 40px;
+}
+
+#skills .container .row .section-heading{
+  margin-top: 60px;
+  margin-bottom: 60px;
+  float: left;
+}
+
+#portfolio .img-fluid{
+  min-height: 200px;
+  max-width: 350px;
+  max-height: 200px;
+  background-position: center;
+  background-size: cover;
+}
+
+#portfolio .portfolio-link{
+  text-align: center;
+}
+
