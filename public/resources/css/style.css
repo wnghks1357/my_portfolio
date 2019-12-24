@@ -1,13 +1,13 @@
 body {
     margin: 0;
-    font:normal 75% Arial, Helvetica, sans-serif;
+    
   }
 
 @media (max-width: 576px)
 .Skill_image_container {
     width: 100px;
     height: 100px;
-    margin: 5px;
+    
 }
 
 .Skill_image_container {
