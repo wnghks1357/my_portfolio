@@ -1,17 +1,15 @@
-FROM node:carbon
-
-MAINTAINER JOOHWAN JANG wnghks1357@naver.com
-
-RUN mkdir -p /app
+FROM node:8
 
 WORKDIR /app
 
-ADD ./ /app
+COPY package*.json ./
 
 RUN npm install
 
+COPY . .
+
 ENV NODE_ENV=development
 
-EXPOSE 3000 80
+EXPOSE 3000
 
 CMD npm start
