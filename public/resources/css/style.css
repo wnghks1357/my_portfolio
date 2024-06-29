@@ -3,11 +3,11 @@ body {
     
   }
 
-@media (max-width: 576px)
-.Skill_image_container {
-    width: 100px;
-    height: 100px;
-    
+  @media (max-width: 576px) {
+    .Skill_image_container {
+        width: 100px;
+        height: 100px;
+    }
 }
 
 .Skill_image_container {
@@ -15,9 +15,12 @@ body {
   display: inline-block;
   width: 120px;
   height: 120px;
+  max-width: 120px; /* 최대 너비를 설정 */
+  max-height: 120px; /* 최대 높이를 설정 */
   border-radius: 30px 30px;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
+  background-position: center; /* 이미지 중앙 배치 */
   margin-right: 2rem;
   box-shadow: 0 3px 6px rgba(0,0,0,.2), 0 3px 6px rgba(0,0,0,.2);
 }
